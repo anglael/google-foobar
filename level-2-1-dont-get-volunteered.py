@@ -1,3 +1,4 @@
+# Don't Get Volunteered!
 # As a henchman on Commander Lambda's space station, you're expected to be resourceful, smart, and a quick thinker. 
 # It's not easy building a doomsday device and capturing bunnies at the same time, 
 # after all! In order to make sure that everyone working for her is sufficiently quick-witted, 
@@ -72,5 +73,5 @@ def solution(src, dest):
     return position
 
 # Test cases
-solution(19, 36) 
-solution(0, 1)
+(solution(19, 36))  # Output: 1
+(solution(0, 1))    # Output: 3
